@@ -77,7 +77,7 @@ public class CustomerCreate extends Login {
 
         if (Expected_URL.equals(Actual_URL)) {
 
-            System.out.println("Account Successfully Login. Test Case Passed.");
+            System.out.println("Account Submit Successfully . Test Case Passed.");
         }
 
         else {
