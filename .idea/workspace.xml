@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e7dc73c-ccb2-451c-83f4-2408f5ad063f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/LaunchBrowser/BrowserConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LaunchBrowser/BrowserConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LaunchProject/RunProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LaunchProject/RunProject.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/LaunchProject/RunProject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -164,7 +163,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/TestCase" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -250,12 +249,12 @@
       <workItem from="1632570386560" duration="2586000" />
       <workItem from="1632625959458" duration="16652000" />
       <workItem from="1632650904489" duration="3433000" />
-      <workItem from="1632658377834" duration="1292000" />
+      <workItem from="1632658377834" duration="1946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23963000" />
+    <option name="totallyTimeSpent" value="24617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -343,8 +342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LaunchProject/RunProject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
