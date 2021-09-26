@@ -24,13 +24,15 @@ public class BrowserConfig {
         driver.get(URL);
     }
 
-    public static void Close_Chrome(){driver.close();}
+    public static void Close_Chrome(){
+        driver.close();
+    }
 
-    public static void Close_FireFox(){driver.close();}
+    //public static void Close_FireFox(){driver.close();}
 
-    public static void quit_Chrome(){driver.quit();}
+   // public static void quit_Chrome(){driver.quit();}
 
-    public static void quit_FireFox(){driver.quit();}
+  //  public static void quit_FireFox(){driver.quit();}
 
 }
 

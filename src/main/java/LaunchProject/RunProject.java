@@ -8,6 +8,8 @@ public class RunProject extends CustomerCreate {
         open_URL("http://demo.guru99.com/V1/index.php");
         Login();
         CreateCustomer();
+        Close_Chrome();
+
 
 
     }
