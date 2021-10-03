@@ -1,5 +1,6 @@
 package TestNG;
 
+import com.sun.org.glassfish.gmbal.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -25,27 +26,19 @@ public class TestNGLoging {
         driver.close();
     }
 
-    @Test
+    @Test (description = "Email and Pass Valid")
     public static void TC_Longin_001(){
 
-        // Step 3
         WebElement Email=driver.findElement(By.id("input-email"));
         Email.clear();
         Email.sendKeys("hassan@gmail.com");
-
-        // Step 4
 
         WebElement Password=driver.findElement(By.id("input-password"));
         Password.clear();
         Password.sendKeys("1234567");
 
-
-        // Step 5
-
         WebElement LoginBtn=driver.findElement(By.cssSelector("#content > div > div:nth-child(2) > div > form > input"));
         LoginBtn.click();
-
-        // Verification
 
         String Expected_Title="My Account";
         String Actual_title=driver.getTitle();
@@ -59,8 +52,6 @@ public class TestNGLoging {
             System.out.println("Test Case Failed");
         }
 
-        // Logout
-
         WebElement Logout=driver.findElement(By.linkText("Logout"));
         Logout.click();
 
@@ -68,7 +59,7 @@ public class TestNGLoging {
         LoginPage.click();
     }
 
-    @Test
+    @Test (description = "Email and Pass Invalid")
 
     public static void TC_Longin_002(){
 
@@ -97,10 +88,8 @@ public class TestNGLoging {
 
     }
 
+    @Test(description = "Email valid but Password Invalid")
 
-    // Email valid but Password Invalid
-
-        @Test
     public static void TC_Longin_003(){
 
         WebElement Email=driver.findElement(By.id("input-email"));
@@ -127,9 +116,8 @@ public class TestNGLoging {
         }
     }
 
-    // Email Invalid and Password Valid
+    @Test(description = "Email Invalid and Password Valid")
 
-    @Test
     public static void TC_Longin_004(){
 
         WebElement Email=driver.findElement(By.id("input-email"));

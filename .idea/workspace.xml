@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e7dc73c-ccb2-451c-83f4-2408f5ad063f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_testng_testng_7_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNGLoging.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LaunchProject/RunProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LaunchProject/RunProject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LaunchProject/RunProject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LaunchProject/RunProject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NewCustomer-Test-Case-Result-Usuf.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NewCustomer-Test-Case-Usuf.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestNG/TestNGLoging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNGLoging.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/TestNGLoging.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="79" column="25" lean-forward="true" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+            <state relative-caret-position="425">
+              <caret line="122" column="66" lean-forward="true" selection-start-line="122" selection-start-column="66" selection-end-line="122" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#662#663#0" expanded="true" />
@@ -280,7 +273,7 @@
       <workItem from="1632658377834" duration="3749000" />
       <workItem from="1632745379645" duration="823000" />
       <workItem from="1633249338806" duration="1114000" />
-      <workItem from="1633254364512" duration="2590000" />
+      <workItem from="1633254364512" duration="3648000" />
     </task>
     <servers />
   </component>
@@ -297,9 +290,12 @@
     <history-entry file="TestNGLoging - 2021.10.03 at 16h 31m 54s.xml">
       <configuration name="TestNGLoging" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestNGLoging - 2021.10.03 at 16h 52m 27s.xml">
+      <configuration name="TestNGLoging" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30947000" />
+    <option name="totallyTimeSpent" value="32005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -394,8 +390,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/TestNGLoging.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" column="25" lean-forward="true" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+        <state relative-caret-position="425">
+          <caret line="122" column="66" lean-forward="true" selection-start-line="122" selection-start-column="66" selection-end-line="122" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#662#663#0" expanded="true" />
