@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e7dc73c-ccb2-451c-83f4-2408f5ad063f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestNG/TestNGLoging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNGLoging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestNG/TestNGReport.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,16 +27,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/TestNGLoging.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="122" column="66" lean-forward="true" selection-start-line="122" selection-start-column="66" selection-end-line="122" selection-end-column="66" />
+            <state relative-caret-position="469">
+              <caret line="142" column="51" lean-forward="true" selection-start-line="142" selection-start-column="51" selection-end-line="142" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#662#663#0" expanded="true" />
                 <element signature="e#692#693#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/TestNGReport.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -55,6 +65,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -75,6 +86,8 @@
         <option value="$PROJECT_DIR$/src/main/java/LaunchProject/RunProject.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/TestNG/TestNGLoging.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestNG/TestNGReport.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/TestNG/TestNGReport.xml" />
       </list>
     </option>
   </component>
@@ -172,26 +185,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestNGLoging">
+  <component name="RunManager" selected="TestNG.G:/BankingProjectAutomation/src/main/java/TestNG/TestNGReport.xml">
     <configuration name="BrowserConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LaunchBrowser.BrowserConfig" />
       <module name="BankingProjectAutomation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="LaunchBrowser.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ChromeConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.BrowerConfig.ChromeConfig" />
-      <module name="BankingProjectAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.BrowerConfig.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,6 +208,25 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="G:/BankingProjectAutomation/src/main/java/TestNG/TestNGReport.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BankingProjectAutomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/java/TestNG/TestNGReport.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter" />
+      </listeners>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -247,13 +266,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.BrowserConfig" />
+      <item itemvalue="Application.RunProject" />
+      <item itemvalue="TestNG.G:/BankingProjectAutomation/src/main/java/TestNG/TestNGReport.xml" />
+      <item itemvalue="TestNG.TestNGLoging" />
+      <item itemvalue="TestNG.TestNGLoging.TC_Login_01" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.G:/BankingProjectAutomation/src/main/java/TestNG/TestNGReport.xml" />
         <item itemvalue="TestNG.TestNGLoging" />
         <item itemvalue="TestNG.TestNGLoging.TC_Login_01" />
         <item itemvalue="Application.RunProject" />
         <item itemvalue="Application.BrowserConfig" />
-        <item itemvalue="Application.ChromeConfig" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +299,7 @@
       <workItem from="1632658377834" duration="3749000" />
       <workItem from="1632745379645" duration="823000" />
       <workItem from="1633249338806" duration="1114000" />
-      <workItem from="1633254364512" duration="3648000" />
+      <workItem from="1633254364512" duration="5737000" />
     </task>
     <servers />
   </component>
@@ -293,9 +319,15 @@
     <history-entry file="TestNGLoging - 2021.10.03 at 16h 52m 27s.xml">
       <configuration name="TestNGLoging" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="G__BankingProjectAutomation_src_main_java_TestNG_TestNGReport_xml - 2021.10.03 at 17h 20m 46s.xml">
+      <configuration name="G:/BankingProjectAutomation/src/main/java/TestNG/TestNGReport.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="G__BankingProjectAutomation_src_main_java_TestNG_TestNGReport_xml - 2021.10.03 at 17h 28m 17s.xml">
+      <configuration name="G:/BankingProjectAutomation/src/main/java/TestNG/TestNGReport.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32005000" />
+    <option name="totallyTimeSpent" value="34094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -388,15 +420,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/TestNGLogin/xml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/TestNGReport.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/TestNGLoging.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="122" column="66" lean-forward="true" selection-start-line="122" selection-start-column="66" selection-end-line="122" selection-end-column="66" />
+        <state relative-caret-position="469">
+          <caret line="142" column="51" lean-forward="true" selection-start-line="142" selection-start-column="51" selection-end-line="142" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#662#663#0" expanded="true" />
             <element signature="e#692#693#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestNG/TestNGReport.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>

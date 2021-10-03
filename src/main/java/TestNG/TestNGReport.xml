@@ -1,0 +1,13 @@
+
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name="TestNG Report">
+    <test name="Login Test">
+        <classes>
+            <class name="TestNG.TestNGLoging"> </class>
+        </classes>
+    </test>
+    
+</suite>
