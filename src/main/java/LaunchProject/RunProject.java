@@ -9,6 +9,5 @@ public class RunProject extends CustomerCreate {
         Login();
         CreateCustomer();
         Close_Chrome();
-
     }
 }
